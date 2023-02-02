@@ -1,0 +1,24 @@
+.loading,.errorLoading{
+  text-align: center;
+  font-size: 25px;
+  color: #000;
+  margin-top: 70px;
+}
+.list{
+  width: 80%;
+  margin: 70px auto;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: rgb(223, 218, 218);
+  background-color: #FCF6F5FF;
+}
+.list ul{
+  padding:0px;
+}
+@media screen and (max-width:800px) {
+  .list{
+    width: 100%;
+    margin: 70px auto;
+    padding: 2px;
+  }
+}
